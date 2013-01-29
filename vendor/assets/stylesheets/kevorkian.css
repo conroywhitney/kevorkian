@@ -1,0 +1,18 @@
+.markdown_editor {
+
+}
+
+.markdown_editor_row {
+  // border: 1px solid black;
+  margin-bottom: 5px;
+}
+
+.markdown_editor_row button {
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.markdown_editor_seperator {
+  width: 2px;
+  padding: 0px;
+}
