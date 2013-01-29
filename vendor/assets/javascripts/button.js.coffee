@@ -5,6 +5,8 @@ class MD.Button
     @attributes = attributes
     @attributes["onClick"] ?= @buttonClick
     @attributes["html"] ?= @html
+    if @attributes["tooltip"]? and !@tooltip?
+      @tooltip = @attributes["tooltip"]
 
   buttonClick: (button, range) =>
 
