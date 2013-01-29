@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Kevorkian::VERSION
   gem.authors       = ["Mark Bates"]
   gem.email         = ["mark@markbates.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{Easy, extensible MarkDown editor.}
+  gem.summary       = %q{Easy, extensible MarkDown editor.}
   gem.homepage      = ""
   gem.license       = "MIT"
 
