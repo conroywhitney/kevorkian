@@ -8,7 +8,7 @@ class MD.Row
       button.editor = @editor
 
   render: =>
-    html = $("<div class='markdown_editor_row navbar-inner'></div>")
+    html = $("<div class='markdown_editor_row'></div>")
     for button in @buttons
       html.append(button.render())
     return html
