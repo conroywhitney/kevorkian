@@ -1,7 +1,6 @@
 class MD.Utils.Manipulation
 
-  @replaceRange: (target_name, range, func) ->
-    el = $(target_name)
+  @replaceRange: (el, range, func) ->
     val = el.val()
     slice = new MD.Utils.Slice(val, range)
     replacement = func(slice.textAtRange)
