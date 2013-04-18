@@ -39,7 +39,7 @@ class MD.Button.Href extends MD.Button
      """)
 
   buttonClick: (button, range) =>
-    el = $(button.editor.target_name)
+    el = $(button.editor.target)
     slice = new MD.Utils.Slice(el.val(), range)
     html = @modalWindow()
     $("#href_text", html).val(slice.textAtRange)

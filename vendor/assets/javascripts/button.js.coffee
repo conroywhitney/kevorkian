@@ -8,7 +8,8 @@ class MD.Button
     if @attributes["tooltip"]? and !@tooltip?
       @tooltip = @attributes["tooltip"]
 
-  buttonClick: (button, range) =>
+  # buttonClick: (button, range) =>
+  #   console?.log "MD.Button.buttonClick"
 
   html: =>
     @name.toUpperCase()
