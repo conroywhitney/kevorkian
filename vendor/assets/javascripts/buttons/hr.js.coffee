@@ -4,6 +4,9 @@ class MD.Button.Hr extends MD.Button
     @name = "hr"
     super(@name, @attributes)
 
+  html: =>
+    @name.toUpperCase()
+
   tooltip: ->
     "Horizontal Rule"
 

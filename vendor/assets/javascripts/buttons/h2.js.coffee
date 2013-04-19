@@ -4,6 +4,9 @@ class MD.Button.H2 extends MD.Button
     @name = "h2"
     super(@name, @attributes)
 
+  html: =>
+    @name.toUpperCase()
+
   tooltip: ->
     "H2"
 

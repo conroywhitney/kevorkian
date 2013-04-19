@@ -11,8 +11,8 @@ class MD.Button
   # buttonClick: (button, range) =>
   #   console?.log "MD.Button.buttonClick"
 
-  html: =>
-    @name.toUpperCase()
+  # html: =>
+  #   @name.toUpperCase()
 
   onClick: (e) =>
     e?.preventDefault()
